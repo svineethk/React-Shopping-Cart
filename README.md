@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# React-Shopping-Cart
+This is a simple React application demonstrating a shopping cart with product management, quantity updates, and a free gift feature. The application calculates the cart subtotal and automatically adds a free gift when the total reaches a specified threshold. 
+>>>>>>> ba6187e603ebef275f3ec322469ccc59ee7938bd
