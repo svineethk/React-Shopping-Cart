@@ -1,75 +1,44 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# React Shopping Cart with Free Gift Feature
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple React application that simulates an online shopping cart with product management, quantity updates, and a free gift feature.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+* **Product Display:** Displays a list of products with their names, prices, and quantity selectors.
+* **Shopping Cart:** Allows users to add products to the cart, update quantities, and remove items.
+* **Free Gift Logic:** Automatically adds a free gift to the cart when the subtotal reaches a specified threshold.
+* **Progress Bar:** Shows a visual representation of the user's progress towards earning the free gift.
+* **State Management:** Uses React's `useState` and `useEffect` for state management.
+* **Inline Styling:** Uses inline CSS for styling.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1.  **Clone the repository:**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    ```bash
+    git clone https://github.com/svineethk/React-Shopping-Cart.git
+    ```
 
-### `npm test`
+2.  **Install dependencies:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ```bash
+    npm install
+    ```
 
-### `npm run build`
+3.  **Start the development server:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```bash
+    npm start
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    The application will open in your default browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# React-Shopping-Cart
-This is a simple React application demonstrating a shopping cart with product management, quantity updates, and a free gift feature. The application calculates the cart subtotal and automatically adds a free gift when the total reaches a specified threshold. 
->>>>>>> ba6187e603ebef275f3ec322469ccc59ee7938bd
+* Browse the list of products.
+* Use the "+" and "-" buttons to adjust the quantity of each product.
+* Click "Add to Cart" to add products to your shopping cart.
+* View the shopping cart to see the selected products and their quantities.
+* The progress bar shows how close you are to earning the free gift.
+* When the cart subtotal reaches the threshold, the free gift will be automatically added.
+* You can remove items from the cart.
